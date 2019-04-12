@@ -1,0 +1,8 @@
+grid mm;
+layer Dimension;
+wire (0 0)(100 0)(100 80)(0 80)(0 0);
+
+
+/GetMeterRealtimeData.cgi?Scope=System
+
+http://10.1.1.27/solar_api/v1/GetInverterRealtimeData.cgi?Scope=Device&DeviceId=1&DataCollection=CommonInverterData
