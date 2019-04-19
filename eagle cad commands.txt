@@ -2,7 +2,16 @@
 
 grid mm;
 layer Dimension;
-wire (0 0)(100 0)(100 80)(0 80)(0 0);
+CHANGE WIDTH 0.256;
+wire (0 0)(100 0)(100 100)(0 100)(0 0);
+
+// Draw enclosure 
+// The comand to draw a circle of radius 1 at 5 5 is: circle (5 5) (6 5);
+
+grid mm;
+CHANGE WIDTH 0.256;
+layer Dimension;
+wire (0 0)(49 0)(49 72)(0 72)(0 0);
 
 // ripup all:
 
